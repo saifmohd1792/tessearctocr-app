@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tesseract OCR Project - Saif</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Tesseract OCR Project - Saif</h1>
+  </header>
+  <main>
+    <!-- Add UI components for fine-tuning -->
+    <div class="parameters">
+      <label for="language">Language:</label>
+      <input type="text" id="language" name="language" placeholder="Enter language">
+      <label for="font">Font:</label>
+      <input type="text" id="font" name="font" placeholder="Enter font">
+      <label for="iterations">Iterations:</label>
+      <input type="number" id="iterations" name="iterations" placeholder="Enter number of iterations">
+      <label for="learningRate">Learning Rate:</label>
+      <input type="number" id="learningRate" name="learningRate" placeholder="Enter learning rate">
+      <label for="maxpages">Max Pages:</label>
+      <input type="number" id="maxpages" name="maxpages" placeholder="Enter max pages">
+      <button id="startButton">Start Fine-Tuning</button>
+    </div>
+    <div id="output"></div>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
